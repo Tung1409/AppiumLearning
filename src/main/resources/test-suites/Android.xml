@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" parallel="tests" thread-count="10">
+    <test name="Authentication 01">
+        <parameter name="platformName" value="android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="systemPort" value="8200"/>
+        <classes>
+            <class name="tests.authentication.LoginTestWithDataBuilder"/>
+        </classes>
+    </test>
+</suite>
