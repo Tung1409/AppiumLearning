@@ -10,7 +10,6 @@ public class SwipeControllerTest extends BaseTest {
 
     @Test
     public void testSwipe(){
-
             LoginScreen loginScreen = new LoginScreen(getDriver());
             BottomNavComponent bottomNavComp = loginScreen.bottomNavComp();
             bottomNavComp.clickOnSwipeIcon();

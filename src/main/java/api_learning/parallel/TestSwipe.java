@@ -37,7 +37,6 @@ public class TestSwipe extends BaseTest {
         int yStartPoint = 70 * screenHeight / 100;
         int yEndPoint = 70 * screenHeight / 100;
 
-
         // Convert coordinates -> point option
         PointOption startPoint = new PointOption<>().withCoordinates(xStartPoint, yStartPoint);
         PointOption endPoint = new PointOption<>().withCoordinates(xEndPoint, yEndPoint);
@@ -51,7 +50,6 @@ public class TestSwipe extends BaseTest {
                     .release()
                     .perform();
         }
-
 
         for (int i = 0; i < 5; i++) {
             touchAction.longPress(endPoint)

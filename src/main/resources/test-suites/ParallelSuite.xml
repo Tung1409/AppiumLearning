@@ -6,7 +6,7 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="systemPort" value="8300"/>
         <classes>
-            <class name="api_learning.parallel.LoginDevice01"/>
+            <class name="tests.authentication.LoginTestWithDataBuilder"/>
         </classes>
     </test>
     <test name="Authentication 02">
@@ -14,7 +14,7 @@
         <parameter name="udid" value="emulator-5556"/>
         <parameter name="systemPort" value="8400"/>
         <classes>
-            <class name="api_learning.parallel.TestSwipe"/>
+            <class name="tests.swipe.SwipeControllerTest"/>
         </classes>
     </test>
 </suite>

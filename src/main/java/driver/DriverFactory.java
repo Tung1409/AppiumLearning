@@ -75,7 +75,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
             }
 
             if (appiumServer == null)
-                throw new RuntimeException("Can't connect to selenium grid.");
+                throw new RuntimeException("Can't connect to selenium grid");
 
             // Desired Capabilities
             DesiredCapabilities desiredCaps = new DesiredCapabilities();
