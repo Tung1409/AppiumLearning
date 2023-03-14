@@ -5,7 +5,7 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="systemPort" value="8100"/>
         <classes>
-            <class name="tests.swipe.SwipeControllerTest"/>
+            <class name="tests.authentication.WebviewTest"/>
         </classes>
     </test>
 </suite>

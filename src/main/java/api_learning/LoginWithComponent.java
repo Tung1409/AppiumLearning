@@ -4,7 +4,7 @@ import driver.DriverFactory;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import models.components.global.BottomNavComponent;
-import models.components.login.LoginFormComponent;
+import models.components.screen.LoginFormComponent;
 import models.pages.LoginScreen;
 import platform.Platform;
 

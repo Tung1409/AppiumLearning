@@ -9,13 +9,13 @@ import tests.BaseTest;
 public class SwipeControllerTest extends BaseTest {
 
     @Test
-    public void testSwipe(){
-            LoginScreen loginScreen = new LoginScreen(getDriver());
-            BottomNavComponent bottomNavComp = loginScreen.bottomNavComp();
-            bottomNavComp.clickOnSwipeIcon();
-            SwipeController swipeController = new SwipeController(getDriver(), 50, 10,
-                    50, 50, 3);
-            swipeController.swipeToDestination();
+    public void testSwipe() {
+        LoginScreen loginScreen = new LoginScreen(getDriver());
+        BottomNavComponent bottomNavComp = loginScreen.bottomNavComp();
+        bottomNavComp.clickOnSwipeIcon();
+        SwipeController swipeController = new SwipeController(getDriver(), 50, 10,
+                50, 50, 3);
+        swipeController.swipeToDestination();
     }
 }
 

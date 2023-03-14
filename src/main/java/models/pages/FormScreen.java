@@ -3,18 +3,18 @@ package models.pages;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import models.components.global.BottomNavComponent;
-import models.components.screen.LoginFormComponent;
+import models.components.screen.FormComponent;
 
-public class LoginScreen {
+public class FormScreen {
 
     private final AppiumDriver<MobileElement> appiumDriver;
 
-    public LoginScreen(AppiumDriver<MobileElement> appiumDriver) {
+    public FormScreen(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
     }
 
-    public LoginFormComponent loginFormComp(){
-        return new LoginFormComponent(appiumDriver);
+    public FormComponent formComp(){
+        return new FormComponent(appiumDriver);
     }
 
     public BottomNavComponent bottomNavComp(){

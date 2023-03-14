@@ -1,7 +1,5 @@
 package test_data.models;
 
-import test_flows.BaseFlow;
-
 public class LoginCred {
     private String email;
     private String password;

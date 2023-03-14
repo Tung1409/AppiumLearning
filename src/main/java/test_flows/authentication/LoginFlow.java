@@ -2,13 +2,10 @@ package test_flows.authentication;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.qameta.allure.Description;
 import io.qameta.allure.Step;
-import models.components.login.LoginFormComponent;
+import models.components.screen.LoginFormComponent;
 import models.pages.LoginScreen;
 import org.apache.commons.validator.routines.EmailValidator;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import test_flows.BaseFlow;
 
