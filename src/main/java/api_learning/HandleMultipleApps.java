@@ -43,7 +43,7 @@ public class HandleMultipleApps {
             if (isWifiOn){
                 wifiStatusElem.click();
             }
-
+//            appiumDriver.runAppInBackground(Duration.ofSeconds(-1));
             appiumDriver.activateApp(AppPackages.WEBDRIVER_IO);
             appiumDriver.findElement(MobileBy.id("android:id/button1")).click();
 

@@ -33,6 +33,4 @@ public class BaseFlow {
         new BottomNavComponent(appiumDriver).clickOnSwipeIcon();
     }
 
-
-    //TODO uninstall Appiumsetting roi cai dat lai
 }

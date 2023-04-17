@@ -56,7 +56,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
             throw new IllegalArgumentException("Please provide env variable [env]!");
         }
 
-        String targetServer = "https://localhost:4723/wd/hub";
+        String targetServer = "http://localhost:4723/wd/hub";
         if (isRemote.equals("true")) {
             String hubIPAdd = System.getenv("hub");
             if (hubIPAdd == null) hubIPAdd = System.getProperty("hub");

@@ -5,7 +5,15 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="systemPort" value="8100"/>
         <classes>
-            <class name="tests.authentication.WebviewTest"/>
+            <class name="tests.authentication.InputFormTest"/>
+        </classes>
+    </test>
+    <test name="Authentication 02">
+        <parameter name="platformName" value="android"/>
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="systemPort" value="8200"/>
+        <classes>
+            <class name="tests.authentication.SwipeToTheEndTest"/>
         </classes>
     </test>
 </suite>

@@ -87,7 +87,5 @@ public class FormComponent {
 
     public void clickOnInactiveButton(){
         appiumDriver.findElement(buttonInactiveSel).click();
-        WebDriverWait wait = new WebDriverWait(appiumDriver, 10L);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(alertSessionSel));
     }
 }
